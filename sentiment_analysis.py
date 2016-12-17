@@ -42,9 +42,9 @@ def Naive_Bayes_Classifier(positive, negative, total_negative, total_positive, t
 
 
 if __name__ == '__main__':
-    AMAZON_FILE = open("/Users/gganesan/Downloads/sentiment_labelled_sentences/amazon_cells_labelled.txt")
-    YELP_FILE = open("/Users/gganesan/Downloads/sentiment_labelled_sentences/yelp_labelled.txt")
-    IMDB_FILE = open("/Users/gganesan/Downloads/sentiment_labelled_sentences/imdb_labelled.txt")
+    AMAZON_FILE = open("/amazon_cells_labelled.txt")
+    YELP_FILE = open("/yelp_labelled.txt")
+    IMDB_FILE = open("/imdb_labelled.txt")
 
 
     #Preprocessing of training set
